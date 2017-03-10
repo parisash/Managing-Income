@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Financial Project</title> 
+       <link rel="stylesheet" type="text/css" href="./css/style.css">    
+    </head>
+    <body>
+        <fieldset class="saveValue">
+            <legend>Income</legend>
+            <input type="text" name="income" id="income" placeholder="Enter your income...">
+            <input type="submit" name="save" id="save" value="Save" onclick="saveIncome()">
+            <p id="showIncome"></p>
+        </fieldset>
+        <fieldset class="saveValue">
+            <legend>Expense</legend>
+            <input type="text" name="expense" id="expense" placeholder="Enter your expense...">
+            <input type="submit" name="save" id="save" value="Save" onclick="saveExpense()">
+            <p id="showExpense"></p>
+        </fieldset>
+        <fieldset class="result">
+            <legend>Result</legend>            
+            <input type="submit" name="compare" id="compare" value="Compare" onclick="compareValues()">
+            <p id="showResult"></p>
+            <p id="compareValue"></p>
+        </fieldset>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
