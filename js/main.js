@@ -17,7 +17,6 @@ function saveExpense() {
 
 function compareValues() {
     for(var i = 0; i < incomeInput.length; i++) {
-    
         incomeSum+=Number(incomeInput[i]);
     }
 
