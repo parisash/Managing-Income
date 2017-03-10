@@ -1,0 +1,4 @@
+# Managing-income
+Managing income with javascript
+
+This is my first code with javascript.
